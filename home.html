@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<p>Hello World</p>
+
+		<img onmouseover="alertUser(this)" src="./images/rubber-ducky.jpeg">
+		<p>Welcome to the website, User</p>
+		<ul>
+			<li>User, you are smart</li>
+			<li>User, you are kind</li>
+			<li>User, you are beautiful</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+			<p>How did you hear about us?</p>
+			<input type="checkbox" id="google" name="google" value="google">
+			<label for="google"> Google</label>
+			<br>
+			<input type="checkbox" id="aFriend" name="aFriend" value="aFriend">
+			<label for="aFriend"> A Friend</label>
+			<br>
+			<input type="checkbox" id="other" name="other" value="other">
+			<label for="other"> Other</label>
+		
+			<br><br>
+			<input type="submit">
+
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
